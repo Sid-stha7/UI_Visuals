@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import logo from './images/logo.png';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Nav, Navbar, Container} from 'react-bootstrap'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar bg="green" expand="lg" sticky="top">
+        <Container>
+          {/* <Navbar.Brand href="#home"><img src={logo} className ="logo" alt="logo"/></Navbar.Brand> */}
+          <img src={logo} className ="logo" alt="logo"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#home" className=" text-light">Home</Nav.Link>
+              <Nav.Link href="#link" className=" text-light">About</Nav.Link>
+              <Nav.Link href="#link" className=" text-light">Team</Nav.Link>
+              <Nav.Link href="#link" className=" text-light">Events</Nav.Link>
+              <Nav.Link href="#link" className=" text-light">Contacts</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 }
+
 
 export default App;
