@@ -1,13 +1,13 @@
-.bg-green{
-  background-color: #6abd45;
+.bg-white{
+  background-color: #ffffff;
 }
 .logo{
   margin: 0;
   padding: 0;
   width: 75px; 
   height: 65px;
-  margin-top: -8px;
-  margin-bottom: -8px;
+  margin-top: -6px;
+  margin-bottom: -6px;
   display: block;
 }
 .App{
