@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+:root {
+  --bg-size: 100% 100%;
+  /* --div--height: 85vh; */
+}
+
+.break {
+  height: 100px;
+}
+
+.portfolio-frame {
+  text-align: center;
+  border-bottom: solid 2px red;
+}
+
+#port-head {
+  font-family: Poppins;
+  color: #3c8900;
+}
+#port-desc {
+  font-family: Poppins;
+  text-align: left;
+  color: rgb(92, 92, 92);
+}
+
+#image-area {
+  font-family: Poppins;
+  background-image: url("../src/images/bg.png");
+  background-size: cover;
+  height: 280px;
+  background-color: #919090;
+  font-family: Poppin;
+}
+#port-desc {
+  font-family: Poppins;
+  padding-top: 30px;
+  color: rgb(92, 92, 92);
+}
+.sub-head {
+  font-family: Poppins;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+}
+
+.line {
+  margin: 20px 0px 50px 0px;
+  border-bottom: 2px solid rgb(182, 182, 182);
+  height: 50px;
+}
