@@ -1,0 +1,56 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .slide{
+  height: 75vh;
+  background-color: white;
+}
+
+.carousel .slide img {
+  max-height: 100%;
+  width: 100%;
+  /* max-width: 1450px; */
+}
+
+.image{
+  margin: 1vh auto;
+  height: 100%;
+  width: auto;
+  
+}
+
+
+
+@media only screen and (max-width: 1200px){
+  .carousel{
+    height: 90vh;
+  }
+  .image{
+    margin: 0vh auto;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .carousel{
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 750px){
+  .carousel{
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 650px){
+  .carousel{
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 550px){
+  .carousel{
+    height: 50vh;
+  }
+}
+
+
