@@ -1,0 +1,29 @@
+.wrapper{
+    
+    background-color:#3C8900;
+    font-family:Roboto;
+}
+.col-sm-3{
+ 
+  height:100%;
+  margin-top:15px;
+}
+.col-sm-5{
+   height:100%;
+  margin-top:15px;
+    border-left: 2px solid #fff;
+}
+a{
+  color:#fff;
+  text-decoration:none;
+}
+a:hover {
+  color:#fff;
+}
+.col-sm-4{
+  margin-top:8rem;
+}
+hr{
+   border: 1px solid white;
+   margin-top: -20px;
+}

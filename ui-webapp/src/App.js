@@ -1,15 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav_component from './components/navbar';
-import TestSlider from './components/slider';
-
-
+import NavComponent from './components/Navbar/navbar';
+import TestSlider from './components/Slidebar/slider';
+import Footer from "./components/Footer/Footer"
+import Portfolio from "./components/WHO_AM_I/Portfolio"
 function App() {
   return (
     <div>
-      <Nav_component />
+      <NavComponent />
       <TestSlider/>
+      <Portfolio/>
+      <Footer/>
+      
     </div>
   );
 }

@@ -10,13 +10,13 @@ export default class TestSlider extends Component {
             <div>
                 <Carousel infiniteLoop autoPlay showThumbs={false} showStatus={false} showArrows={true}>
                     <div className="image">
-                        <img src="./slider-images/ui_slider1.jpg" alt="image"/>
+                        <img src="./slider-images/ui_slider1.jpg" alt=" "/>
                     </div>
                     <div className="image">
-                        <img src="./slider-images/slider2.jpg" alt="image"/>
+                        <img src="./slider-images/slider2.jpg" alt=" "/>
                     </div>
                     <div className="image">
-                        <img src="./slider-images/slider4.jpg" alt="image"/>
+                        <img src="./slider-images/slider4.jpg" alt=" "/>
                     </div>
                 </Carousel>
             </div>

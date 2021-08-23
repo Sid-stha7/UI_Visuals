@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../images/logo_new.png';
+import logo from '../Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, Container} from 'react-bootstrap'
 
-class Nav_component extends Component {
+class NavComponent extends Component {
   render() {
     return (
         <div className="Navbar">
@@ -28,4 +28,4 @@ class Nav_component extends Component {
   }
 }
 
-export default Nav_component;
+export default NavComponent;
