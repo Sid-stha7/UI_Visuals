@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css"
-import { FaFacebook,FaTwitter,FaArrowCircleUp } from "react-icons/fa";
-import { AiFillDribbbleCircle } from "react-icons/ai";
+import { FaFacebook,FaDiscord,FaArrowCircleUp } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <div>
@@ -12,8 +12,8 @@ const Footer = () => {
                      <h5 className="mt-4">UI/Visual Community</h5>
                 
                         <a href="https://www.facebook.com/groups/440546053340638" style={{fontSize: "1.8rem",marginRight:"20px"}}> <FaFacebook/></a>
-                        <a href="" style={{fontSize: "1.8rem",marginRight:"20px"}}> <FaTwitter/></a>
-                         <a href="" style={{fontSize: "2.2rem"}}> <AiFillDribbbleCircle/></a>
+                        <a href="https://discord.com/channels/874955190028095518/875222479617011734" style={{fontSize: "1.8rem",marginRight:"20px"}}> <FaDiscord/></a>
+                       
                      
                     </div>
                     
