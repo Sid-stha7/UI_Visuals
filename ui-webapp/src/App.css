@@ -1,4 +1,48 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+:root {
+  --bg-size: 100% 100%;
+  /* --div--height: 85vh; */
+}
+/* ..........................nav and slider css start ..........................*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,3 +72,52 @@
   margin-bottom: -6px;
   display: block;
 }
+
+/* ..........................nav bar css end.................... */
+
+/* .............................who are we css start ............. */
+
+.break {
+  height: 100px;
+}
+
+.portfolio-frame {
+  text-align: center;
+  border-bottom: solid 2px red;
+}
+
+#port-head {
+  font-family: Poppins;
+  color: #3c8900;
+}
+#port-desc {
+  font-family: Poppins;
+  text-align: left;
+  color: rgb(180, 128, 128);
+}
+
+#image-area {
+  font-family: Poppins;
+  background-image: url("../src/components/Images/bg.png");
+  background-size: cover;
+  height: 280px;
+  background-color: #919090;
+  font-family: Poppin;
+}
+#port-desc {
+  font-family: Poppins;
+  padding-top: 30px;
+  color: rgb(92, 92, 92);
+}
+.sub-head {
+  font-family: Poppins;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+}
+
+.line {
+  margin: 20px 0px 50px 0px;
+  border-bottom: 2px solid rgb(182, 182, 182);
+  height: 50px;
+}
+/* .............................who are we css end ............. */

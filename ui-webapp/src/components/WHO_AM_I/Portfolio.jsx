@@ -5,8 +5,6 @@ class Portfolio extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="break"></div>
-
         <div class="container">
           <div class="row align-items-center justify-content-md-center">
             <div class="col-lg-6 col-12 " id="port-main">
