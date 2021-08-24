@@ -1,30 +1,30 @@
-*{
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 
-.bg-white{
+.bg-white {
   background-color: #ffffff;
 }
-.nav-element{
+.nav-element {
   margin: 0 5px;
   font-weight: 600;
   padding-bottom: 3px;
-
 }
-.nav-element:hover{
+.nav-element:hover {
   padding-bottom: 0;
   border-bottom: #6abd45 solid 3px;
   /* color: #6abd45 !important; */
 }
-.logo{
+.logo {
   margin: 0;
   padding: 0;
-  width: 75px; 
+  width: 75px;
   height: 65px;
   margin-top: -6px;
   margin-bottom: -6px;
   display: block;
 }
-
