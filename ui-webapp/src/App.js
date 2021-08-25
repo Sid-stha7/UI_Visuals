@@ -6,7 +6,7 @@ import TestSlider from './components/Slidebar/slider';
 import Footer from "./components/Footer/Footer"
 import Portfolio from "./components/WHO_AM_I/Portfolio"
 import About from "./components/About/about"
-  
+import Contact_component from './components/Contact/contacts';
   
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <TestSlider />
       <About/>
       <Portfolio/>
+      <Contact_component />
       <Footer/>
       
     </div>
