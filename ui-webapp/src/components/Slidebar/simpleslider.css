@@ -1,3 +1,6 @@
+/* .slider-div{
+  margin-top: 50px;
+} */
 .carousel {
   display: flex;
   justify-content: center;
@@ -6,6 +9,7 @@
 .carousel .slide {
   height: 80vh;
   background-color: white;
+  padding-top: 30px;
 }
 
 .carousel .slide img {
@@ -16,6 +20,8 @@
   margin: 1vh auto;
   height: 100%;
   width: auto;
+  max-width: 1300px;
+  background-color: #6ABD45;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -29,21 +35,21 @@
 
 @media only screen and (max-width: 900px) {
   .carousel {
-    height: 80vh;
+    height: 60vh;
   }
 }
 @media only screen and (max-width: 750px) {
   .carousel {
-    height: 70vh;
+    height: 60vh;
   }
 }
 @media only screen and (max-width: 650px) {
   .carousel {
-    height: 60vh;
+    height: 45vh;
   }
 }
 @media only screen and (max-width: 550px) {
   .carousel {
-    height: 50vh;
+    height: 35vh;
   }
 }
