@@ -9,6 +9,8 @@
     "3d-react-carousal": "^4.0.2",
     "bootstrap": "^5.0.2",
     "chokidar": "^3.5.2",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "^17.0.2",
