@@ -16,7 +16,7 @@
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #6ABD45;
     border-radius: 5px;
     color: white;
     padding: 10px 20px;
@@ -63,4 +63,9 @@
       width: 100%;
       margin-top: 0;
     }
+  }
+
+  .maps-container{
+    position: relative;
+    overflow: hidden;
   }
