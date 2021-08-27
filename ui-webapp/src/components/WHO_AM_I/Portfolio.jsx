@@ -46,6 +46,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
+        <div className="break"></div>
       </React.Fragment>
     );
   }
