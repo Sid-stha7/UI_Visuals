@@ -15,7 +15,7 @@ class Portfolio extends Component {
               platea dictumst. Integer diam sapien.
             </div>
 
-            <div class="col-lg-6 col-12  " id="image_div">
+            <div class="col-lg-6 col-12" id="image_div">
               <div id="image-area"></div>
             </div>
           </div>
