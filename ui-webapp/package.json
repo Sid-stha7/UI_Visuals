@@ -7,7 +7,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "3d-react-carousal": "^4.0.2",
-    "bootstrap": "^5.0.2",
+    "bootstrap": "^5.0.0-alpha1",
     "chokidar": "^3.5.2",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
