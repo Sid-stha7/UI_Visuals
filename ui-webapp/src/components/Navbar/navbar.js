@@ -7,7 +7,7 @@ class NavComponent extends Component {
   render() {
     return (
         <div className="Navbar">
-            <Navbar bg="white" expand="lg" sticky="top">
+            <Navbar bg="white" expand="lg" fixed="top">
                 <Container>
                     {/* <Navbar.Brand href="#home"><img src={logo} className ="logo" alt="logo"/></Navbar.Brand> */}
                     <img src={logo} className ="logo" alt="logo"/>
