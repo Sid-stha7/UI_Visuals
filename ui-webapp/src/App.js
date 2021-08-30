@@ -9,6 +9,7 @@ import Portfolio from "./components/WHO_AM_I/Portfolio"
 import About from "./components/About/about"
 import Contact_component from './components/Contact/contacts';
 import Banner from './components/Slidebar/Banner';
+import Event from './components/Event page/event'
   
 function App() {
   return (

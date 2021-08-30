@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(221, 221, 221);
+}
+
+header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    box-shadow: 0 2px 5px rgb(58, 58, 58);
+}
+
+.flex-container{
+    padding-top: 80px;
+    display: flex;
+}
+
+/* Start of Sidebar CSS */
+.sidebar-container{
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+    height: 90vh;
+    width: 250px;
+    color: #414141;
+}
+
+.sidebar-header{
+    color: #6abd45;
+    padding: 40px 0 5px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
+.sidebar-content ul{
+    padding: 10px;
+}
+.sidebar-content ul li{
+    cursor: pointer;
+    font-size: 14px;
+    list-style: none;
+    padding: 15px 0;
+}
+
+.sidebar-content ul li img{
+    padding:0 20px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.sidebar-content ul li:hover{
+    background-color: #C5DCFA;
+    color: rgb(0, 53, 151);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.sidebar-segment{
+    margin-top: 20px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+/* End of Sidebar CSS */
+
+
+/* Start of Event Content CSS */
+.events-container{
+    background-color: white;
+    border-radius: 15px;
+    min-height: 300px;
+    width: 70%;
+    margin: 20px 40px;
+    padding: 2%;
+}
+
+.events-content{
+    height: 100%;
+}
+
+.person-details{
+    display: flex;
+    align-items: center;
+}
+
+.person-details img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.person-name{
+    font-size: 18px;
+}
+
+.person-description p{
+    font-size: 12px;
+    color: #414141;
+}
+
+.event-caption{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.event-details{
+    background-color: #6abd45;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.event-details-left{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.event-details img{
+    height: 40px;
+    width: 35px;
+
+}
+
+.img-date{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+    color: white;
+}
+
+.event-details-right{
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.event-poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 10px 0;
+}
+
+.event-poster img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.post-interactions ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.post-interactions ul li img{
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+/* End of Event Content CSS */
