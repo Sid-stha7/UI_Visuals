@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import "./event-style.css";
-import NavComponent from './components/Navbar/navbar';
+import NavComponent from '../Navbar/navbar';
 
 const  Event = () => {
     return (  
         <div>
             <NavComponent />
-            <div class="flex-container">
+            <div className="flex-container">
 
 
 
             {/* <!-- Start of Sidebar Area --> */}
-            <div class="sidebar-container">
-                <div class="sidebar-header">
+            <div className="sidebar-container">
+                <div className="sidebar-header">
                     Categories
                 </div>
-                <div class="sidebar-content">           
+                <div className="sidebar-content">           
                 
                     <ul>
                         <li><img src="main-icon.png" alt="main-icon" />Events Page</li>
@@ -24,12 +24,12 @@ const  Event = () => {
                     </ul>     
                 </div>   
                 
-                <hr class="sidebar-segment" />
+                <hr className="sidebar-segment" />
 
-                <div class="sidebar-header">
+                <div className="sidebar-header">
                     Library
                 </div>
-                <div class="sidebar-content">                     
+                <div className="sidebar-content">                     
                     <ul>
                         <li><img src="main-icon.png" alt="main-icon" />What's New?</li>
                         <li><img src="gallery-icon.png" alt="" />Gallery</li>
@@ -41,38 +41,38 @@ const  Event = () => {
 
 
             {/* <!-- Start of Event Content Area --> */}
-            <div class="events-container">
-                <div class="events-content">
+            <div className="events-container">
+                <div className="events-content">
 
-                    <div class="person-details">
+                    <div className="person-details">
                         <img src="postman.jpg" alt="" />
-                        <div class="person-description">
-                            <div class="person-name">Saman Bhandari</div>
+                        <div className="person-description">
+                            <div className="person-name">Saman Bhandari</div>
                             <p>Member/Moderator</p>
                             <p>UI Visuals Community</p>
                         </div>
                     </div>
 
-                    <div class="event-caption">
+                    <div className="event-caption">
                         Caption for the event is kept here
                     </div>
 
-                    <div class="event-details">
-                        <div class="event-details-left">
+                    <div className="event-details">
+                        <div className="event-details-left">
                             <img src="calender.png" alt="calender" />
-                            <div class="img-date">20</div>
+                            <div className="img-date">20</div>
                         </div>  
-                        <div class="event-details-right">
-                            <div class="specify-date">Aug. 24th</div>
-                            <div class="specify-time">1:00 PM - 3:00 PM</div>
+                        <div className="event-details-right">
+                            <div className="specify-date">Aug. 24th</div>
+                            <div className="specify-time">1:00 PM - 3:00 PM</div>
                         </div> 
                     </div>
 
-                    <div class="event-poster">
+                    <div className="event-poster">
                         <img src="poster.png" alt="event-poster" />
                     </div>
 
-                    <div class="post-interactions">
+                    <div className="post-interactions">
                         <ul>
                             <li><img src="heart-red.png" alt="like" /></li>
                             <li><img src="comment.png" alt="comment" /></li>
