@@ -21,6 +21,7 @@ function App() {
       <Portfolio/>
       <Contact_component />
       <Footer/>
+      <Event/>
     </div>
   );
 }
