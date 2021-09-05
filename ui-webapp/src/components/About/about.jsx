@@ -1,40 +1,65 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import "./about.css";
-import about_pic from "../Images/about.png";
 import facebook from "../Images/facebook.png";
 import discord from "../Images/discord.png";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BlockContent from "@sanity/block-content-to-react";
+import PuffLoader from "react-spinners/PuffLoader";
+import { SocialIcon } from "react-social-icons";
+import client from "../../client";
 
-const About = () => {
+const About = ({ aboutBody, aboutImage }) => {
+  const [postData, setPost] = useState(null);
+
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type=="social"] {
+          siteTitle,    
+          siteURL
+      }`
+      )
+      .then((data) => setPost(data))
+
+      .catch(console.error);
+  }, []);
+  if (!postData)
+    return (
+      <div className="loader text-center my-auto">
+        <PuffLoader size={60} />
+      </div>
+    );
+    
   return (
     <Container>
       <section className="aboutSection">
         <div className="aboutImage">
-          <img src={about_pic} alt="ui visuals" />
+          <img src={aboutImage} alt="Image of UI Visuals Community" />
         </div>
         <div className="aboutContent">
           <div className="aboutDesc">
             <h1>About UI Visuals Community</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio totam amet magnam perferendis culpa, magni, in eum
-              tenetur, pariatur nesciunt consequuntur dolor molestias. Rerum
-              alias, illum harum quos aliquid veritatis ipsum dolor sit amet
-              consectetur adipisicing elit. totam amet magnam perferendis culpa,
-              magni, in eum tenetur, pariatur nesciunt consequuntur dolor
-              molestias. Rerum alias, illum harum quos aliquid veritatis!
-            </p>
+
+            <div>
+              <BlockContent blocks={aboutBody} />
+            </div>
           </div>
           <div className="aboutSocial">
             <h2>Join Us Now</h2>
             <div>
-              <a href="https://www.facebook.com/groups/440546053340638">
-                <img src={facebook} />
-              </a>
-              <a href="https://discord.gg/wQCeqjQsUG">
-                <img src={discord} />
-              </a>
+              {postData &&
+                postData.map((social, index) => (
+                  <span key={index}>
+                    <SocialIcon
+                      url={social.siteURL}
+                      className="swing mx-2 my-1"
+                      target="_blank"
+                      fgColor="#fff"
+                      title={social.siteTitle}
+                    />
+                  </span>
+                ))}
             </div>
           </div>
         </div>

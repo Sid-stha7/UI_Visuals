@@ -1,8 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import PuffLoader from "react-spinners/PuffLoader";
+import { SocialIcon } from "react-social-icons";
+import client from "../../client";
 import "./Footer.css";
 import { FaFacebook, FaDiscord, FaArrowCircleUp } from "react-icons/fa";
 
 const Footer = () => {
+  const [postData, setPost] = useState(null);
+
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type=="social"] {
+          siteTitle,    
+          siteURL
+      }`
+      )
+      .then((data) => setPost(data))
+
+      .catch(console.error);
+  }, []);
+  if (!postData)
+    return (
+      <div className="loader text-center my-auto">
+        <PuffLoader size={60} />
+      </div>
+    );
+
   return (
     <div>
       <br />
@@ -16,20 +40,20 @@ const Footer = () => {
             >
               <h5 className="mt-4">UI/Visual Community</h5>
 
-              <a
-                href="https://www.facebook.com/groups/440546053340638"
-                style={{ fontSize: "1.8rem", marginRight: "20px" }}
-              >
-                {" "}
-                <FaFacebook />
-              </a>
-              <a
-                href="https://discord.com/channels/874955190028095518/875222479617011734"
-                style={{ fontSize: "1.8rem", marginRight: "20px" }}
-              >
-                {" "}
-                <FaDiscord />
-              </a>
+              <div>
+                {postData &&
+                  postData.map((social, index) => (
+                    <span key={index}>
+                      <SocialIcon
+                        url={social.siteURL}
+                        className="swing mx-2 my-1"
+                        target="_blank"
+                        fgColor="#fff"
+                        title={social.siteTitle}
+                      />
+                    </span>
+                  ))}
+              </div>
             </div>
 
             <div className="col-sm-5 text-center" style={{ color: "white" }}>
