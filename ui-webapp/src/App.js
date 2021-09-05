@@ -10,6 +10,7 @@ import About from "./components/About/about"
 import Contact_component from './components/Contact/contacts';
 import Banner from './components/Slidebar/Banner';
 import Event from './components/Event page/event'
+import Testimonials from './components/Testimonials/Testimonials';
   
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Contact_component />
+      <Testimonials />
       <Footer/>
       <Event/>
     </div>
