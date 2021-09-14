@@ -92,7 +92,7 @@ class Team extends Component {
       {
         image: "/member-images/rabins.png",
         name: "Rabins",
-        department: "Design/Lead",
+        department: "Design | Lead",
         message: "Less is More",
       },
       {
