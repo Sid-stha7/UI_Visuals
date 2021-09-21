@@ -64,8 +64,8 @@ const Testimonials = () => {
                         title={"Image for "+testimonial.title}
                         style={{
                           borderRadius: "50%",
-                          width: "100px",
-                          height: "100px",
+                          width: "15  0px",
+                          height: "15  0px",
                         }}
                       />
                     </div>

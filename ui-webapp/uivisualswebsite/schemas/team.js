@@ -4,27 +4,29 @@ export default {
     type: 'document',
     fields: [
       {
-        name: 'heading',
-        title: 'Heading',
+        name: 'member',
+        title: 'Member Name',
         type: 'string',
       },
       {
         name: 'slug',
-        title: 'Slug',
+        title: 'Slug:',
         type: 'slug',
+        description: 'Auto Generated ID.',
         options: {
-          source: 'heading',
+          source: 'member',
           maxLength: 96,
         },
       },
-    //   {
-    //     name: 'mainImage',
-    //     title: 'Main image',
-    //     type: 'image',
-    //     options: {
-    //       hotspot: true,
-    //     },
-    //   },
+      {
+        name: 'memberImg',
+        title: 'Member image:',
+        description: 'Image of Member.',
+        type: 'image',
+        options: {
+          hotspot: true,
+        },
+      },
 
       {
         name: 'body',
@@ -35,8 +37,8 @@ export default {
   
     preview: {
       select: {
-        title: 'heading',
-        // media: 'mainImage',
+        title: 'member',
+        media: 'memberImg',
       },
   
     },

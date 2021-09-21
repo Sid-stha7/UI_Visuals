@@ -3,7 +3,7 @@ import Contact from "../Contact/contacts";
 import Banner from "../Slidebar/Banner";
 import Testimonials from "../Testimonials/Testimonials";
 import Portfolio from "../WHO_AM_I/Portfolio";
-import Team from "../WHO_AM_I/team";
+import Team from "../Team/team"
 import Event from "../Event page/event"
 
 import React, { useState, useEffect } from "react";
@@ -55,10 +55,11 @@ const Homepage = () => {
         aboutImage={postData[0].aboutImage.asset.url}
       />
       <Portfolio whoWeAreBody={postData[0].whoWeAre} />
+        <Team />
       <Contact />
       <Testimonials />
       <Event />
-      {/* <Team /> */}
+    
     </>
   );
 };

@@ -9,7 +9,7 @@ const Team = () => {
   useEffect(() => {
     client
       .fetch(
-        `*[_type=="team"] {
+        `*[_type=="events"] {
                     heading,
                     body
   
@@ -29,11 +29,11 @@ const Team = () => {
   return (
     <div className="row align-items-center">
       {postData &&
-        postData.map((team, index) => (
+        postData.map((events, index) => (
           <div className="col-md" key={index}>
-            <span className="sub-head">{team.heading}</span>
+            <span className="sub-head">{events.heading}</span>
             <div className="col-md" id="desc-items">
-              <BlockContent blocks={team.body} />
+              <BlockContent blocks={events.body} />
             </div>
           </div>
         ))}
