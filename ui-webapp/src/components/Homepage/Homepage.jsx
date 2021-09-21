@@ -3,6 +3,8 @@ import Contact from "../Contact/contacts";
 import Banner from "../Slidebar/Banner";
 import Testimonials from "../Testimonials/Testimonials";
 import Portfolio from "../WHO_AM_I/Portfolio";
+import Team from "../WHO_AM_I/team";
+import Event from "../Event page/event"
 
 import React, { useState, useEffect } from "react";
 import PuffLoader from "react-spinners/PuffLoader";
@@ -55,6 +57,8 @@ const Homepage = () => {
       <Portfolio whoWeAreBody={postData[0].whoWeAre} />
       <Contact />
       <Testimonials />
+      <Event />
+      {/* <Team /> */}
     </>
   );
 };
