@@ -26,7 +26,7 @@ function App() {
       <Contact_component />
       <Testimonials />
       <Footer/>
-      <Event/>
+      {/* <Event/> */}
       
     </div>
   );
