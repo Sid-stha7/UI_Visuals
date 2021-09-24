@@ -1,6 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import { FaFacebook, FaDiscord, FaArrowCircleUp } from "react-icons/fa";
+import { FiInstagram, FiLinkedin } from "react-icons/fi";
+import { SiTiktok } from "react-icons/si";
+
+
 
 const Footer = () => {
   return (
@@ -25,10 +29,21 @@ const Footer = () => {
               </a>
               <a
                 href="https://discord.com/channels/874955190028095518/875222479617011734"
-                style={{ fontSize: "1.8rem", marginRight: "20px" }}
-              >
+                style={{ fontSize: "1.8rem", marginRight: "20px" }}>
                 {" "}
                 <FaDiscord />
+              </a>
+              <a
+                href="https://www.instagram.com/devcorps.ui_visuals/"
+                style={{ fontSize: "1.8rem", marginRight: "20px" }}>
+                {" "}
+                <FiInstagram />
+              </a>
+              <a
+                href="https://www.tiktok.com/@devscorps.ui_visuals?lang=en"
+                style={{ fontSize: "1.8rem", marginRight: "20px" }}>
+                {" "}
+                <SiTiktok />
               </a>
             </div>
 
@@ -53,6 +68,11 @@ const Footer = () => {
               <div>
                 <a href="https://www.facebook.com/groups/857865105165454 ">
                   Biz Core
+                </a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/groups/857865105165454 ">
+                  Ethical HCK
                 </a>
               </div>
               <div className="d-sm-none text-end">
