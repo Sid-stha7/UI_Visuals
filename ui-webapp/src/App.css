@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 :root {
   --bg-size: 100% 100%;
+  --main-color: #74c043;
+  --secondary-color: #3a3a3c;
+  --gray: #656668;
+
   /* --div--height: 85vh; */
 }
 /* ..........................nav and slider css start ..........................*/
@@ -30,10 +34,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -60,7 +60,7 @@
 }
 .nav-element:hover {
   padding-bottom: 0;
-  border-bottom: #6abd45 solid 3px;
+  border-bottom: var(--main-color) solid 3px;
   /* color: #6abd45 !important; */
 }
 .logo {
@@ -74,7 +74,7 @@
 }
 
 .Navbar{
-  border-bottom: 5px solid #6abd45;
+  border-bottom: 5px solid var(--main-color);
 }
 /* ..........................nav bar css end.................... */
 
@@ -91,7 +91,7 @@
 
 #port-head {
   font-family: Poppins;
-  color: #3c8900;
+  color: var(--main-color);
 }
 #port-desc {
   font-family: Poppins;
