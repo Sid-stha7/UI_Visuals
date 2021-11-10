@@ -23,6 +23,12 @@ const About = () => {
               alias, illum harum quos aliquid veritatis ipsum dolor sit amet
               consectetur adipisicing elit. totam amet magnam perferendis culpa,
               magni, in eum tenetur, pariatur nesciunt consequuntur dolor
+              molestias. Rerum alias, illum harum quos aliquid veritatis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio totam amet magnam perferendis culpa, magni, in eum
+              tenetur, pariatur nesciunt consequuntur dolor molestias. Rerum
+              alias, illum harum quos aliquid veritatis ipsum dolor sit amet
+              consectetur adipisicing elit. totam amet magnam perferendis culpa,
+              magni, in eum tenetur, pariatur nesciunt consequuntur dolor
               molestias. Rerum alias, illum harum quos aliquid veritatis!
             </p>
           </div>

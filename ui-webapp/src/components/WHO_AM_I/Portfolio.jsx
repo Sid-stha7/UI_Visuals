@@ -12,6 +12,12 @@ class Portfolio extends Component {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
               Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
               platea dictumst. Integer diam sapien.
             </div>
 
@@ -27,6 +33,10 @@ class Portfolio extends Component {
               <div class="col-md" id="desc-items">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.
               </div>
             </div>
 
@@ -35,6 +45,13 @@ class Portfolio extends Component {
               <div class="col-md" id="desc-items">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.
               </div>
             </div>
             <div class="col-md ">
@@ -42,6 +59,13 @@ class Portfolio extends Component {
               <div class="col-md">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              ullamcorper condimentum ultrices. Cras euismod ornare laoreet.
+              Quisque vel efficitur quam, eu molestie odio. In hac habitasse
+              platea dictumst. Integer diam sapien.
               </div>
             </div>
           </div>
