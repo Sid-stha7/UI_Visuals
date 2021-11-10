@@ -1,6 +1,7 @@
 .banner-section{
   height: 60vh;
   margin-top: 250px;
+  
 }
 .hero-img {
   -webkit-animation: mover 2s infinite  alternate;
