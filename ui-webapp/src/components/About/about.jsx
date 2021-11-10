@@ -9,14 +9,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const About = () => {
   return (
     <Container>
-      <section className="aboutSection">
-        <div className="aboutImage">
-          <img src={about_pic} alt="ui visuals" />
-        </div>
-        <div className="aboutContent">
+     
+        
+        <div className="aboutContent ">
           <div className="aboutDesc">
-            <h1>About UI Visuals Community</h1>
-            <p>
+            <h1 className="text-center">About UI Visuals Community</h1>
+             <div className="aboutSection row ">
+            <div className="aboutImage col-lg-5 ">
+          <img src={about_pic} alt="ui visuals" />
+           </div>
+            <p className="col-lg-7 pt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio totam amet magnam perferendis culpa, magni, in eum
               tenetur, pariatur nesciunt consequuntur dolor molestias. Rerum
@@ -31,8 +33,8 @@ const About = () => {
               magni, in eum tenetur, pariatur nesciunt consequuntur dolor
               molestias. Rerum alias, illum harum quos aliquid veritatis!
             </p>
-          </div>
-          <div className="aboutSocial">
+
+            <div className="aboutSocial text-center">
             <h2>Join Us Now</h2>
             <div>
               <a href="https://www.facebook.com/groups/440546053340638">
@@ -43,8 +45,11 @@ const About = () => {
               </a>
             </div>
           </div>
+          </div>
+          </div>
+          
         </div>
-      </section>
+      
     </Container>
   );
 };
