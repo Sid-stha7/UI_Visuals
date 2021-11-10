@@ -3,7 +3,7 @@ import "./team-style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import member_1 from "./member1.png";
+
 
 class Team extends Component {
   render() {
@@ -92,18 +92,24 @@ class Team extends Component {
       {
         image: "/member-images/rabins.png",
         name: "Rabins",
-        department: "Design | Lead",
+        department: "Design/Lead",
         message: "Less is More",
       },
       {
+        image: "/member-images/kareena.png",
+        name: "Karina Shrestha",
+        department: "Development/Design",
+        message: "",
+      },
+      {
         image: "/member-images/manjil.png",
-        name: "Manjil",
+        name: "Manjil Shrestha",
         department: "",
         message: "",
       },
       {
         image: "/member-images/kiran.png",
-        name: "Kiran",
+        name: "Kiran Yogi",
         department: "",
         message: "",
       },
@@ -113,24 +119,14 @@ class Team extends Component {
         department: "",
         message: "",
       },
-      {
-        image: "/member-images/kareena.png",
-        name: "Kareena",
-        department: "",
-        message: "",
-      },
+      
       {
         image: "/member-images/dristi.png",
         name: "Dristi",
         department: "",
         message: "",
       },
-      {
-        image: "/member-images/.png",
-        name: "Your Name",
-        department: "",
-        message: "",
-      },
+     
     ];
 
     const renderMember = (member, index) => {

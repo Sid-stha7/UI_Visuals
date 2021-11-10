@@ -61,4 +61,5 @@ body {
 .member-message{
   font-size: 14px;
   color: rgb(41, 41, 41);
+  margin-top: -15px;
 }
