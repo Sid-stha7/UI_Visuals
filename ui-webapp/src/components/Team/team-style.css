@@ -3,10 +3,13 @@
 *{
   margin: 0;
   padding: 0;
+  
+     
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .our-members{
@@ -61,4 +64,5 @@ body {
 .member-message{
   font-size: 14px;
   color: rgb(41, 41, 41);
+  margin-top: -15px;
 }

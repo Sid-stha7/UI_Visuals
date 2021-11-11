@@ -13,6 +13,7 @@
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    overflow-x: hidden;
   }
   
   input[type=submit] {
@@ -34,6 +35,7 @@
   .container {
     border-radius: 5px;
     padding: 10px;
+    overflow-x: hidden;
   }
   .container h2{
     color: #45a049;
@@ -63,9 +65,16 @@
       width: 100%;
       margin-top: 0;
     }
+    
   }
 
   .maps-container{
     position: relative;
     overflow: hidden;
+    overflow-x: hidden;
+  }
+  @media screen and (max-width: 1000px){
+    .button{
+      text-align:center;
+    }
   }
